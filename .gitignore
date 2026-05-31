@@ -216,3 +216,43 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+
+
+# =========================
+# Mirror Project Additions
+# =========================
+
+# Environment files (explicit)
+.env
+.env.*
+
+# Virtual environments (explicit clarity)
+venv/
+.venv/
+ENV/
+
+# Secrets / API keys (critical for AI projects)
+*.key
+*.pem
+secrets.json
+
+# Logs (AI / backend runtime logs)
+logs/
+*.log
+
+# Local OS noise
+.DS_Store
+
+# IDE (VS Code extra safety)
+.vscode/
+
+# Local runtime artifacts
+*.sqlite3
+*.db
+
+# Model / cache files (AI-specific)
+.cache/
+huggingface/
+transformers_cache/
